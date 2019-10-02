@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #F4F4F4;
+}
+
+.wrapper {
+    max-width: 500px;
+    background: #fff;
+    box-shadow: 0 3px 3px 0 rgba(120,120,120,.4);
+    margin: 50px auto 0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.resume-headline {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.person-data__name {
+    padding-bottom: 10px;
+}
+
+.person-data__name, .contact-info__headline, .contact-info span {
+    color: black;
+}
+
+.person {
+    overflow: hidden;
+    border-bottom: 2px solid #F4F4F4;
+    padding-bottom: 5px;
+}
+
+.person-data {
+    overflow: hidden;
+    color: #7e7e7e;
+}
+
+.person-data div {
+    float: left;
+    margin-right: 5px;
+}
+
+.person__image {
+    float: left;
+}
+
+.contact-info {
+    color: #7e7e7e;
+    margin-top: 5px;
+}
+
+.contact-info__social-link {
+    color: #517FA4;
+}
+
+
+.contact-info p {
+    margin-top: 5px;
+}
+
+.contact-info span {
+    margin-right: 7px;
+    font-weight: 600;
+}
